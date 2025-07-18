@@ -32,7 +32,6 @@ apk add ffmpeg ca-certificates curl wget gnutls --no-cache && \
 pip install "yt-dlp[default,curl-cffi,mutagen,pycryptodomex,phantomjs,secretstorage]"
 
 
-
 WORKDIR /app
 
 COPY --from=build /usr/src/yt-dlp-webui/yt-dlp-webui /app
