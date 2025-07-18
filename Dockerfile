@@ -1,5 +1,5 @@
 # Go --------------------------------------------------------------------------
-FROM python:3.13.2-alpine3.21
+FROM python:3.11-alpine
 
 RUN apk update && apk add ffmpeg ca-certificates curl wget gnutls --no-cache
 
